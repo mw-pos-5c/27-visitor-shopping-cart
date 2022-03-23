@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor.Shopping.Cart", "Visitor.Shopping.Cart\Visitor.Shopping.Cart.csproj", "{5CD3383B-97DE-4B52-ADAB-920AE6751D4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementLib", "ElementLib\ElementLib.csproj", "{92A19098-71D8-4154-A8AD-865949787768}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CD3383B-97DE-4B52-ADAB-920AE6751D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD3383B-97DE-4B52-ADAB-920AE6751D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD3383B-97DE-4B52-ADAB-920AE6751D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD3383B-97DE-4B52-ADAB-920AE6751D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A19098-71D8-4154-A8AD-865949787768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A19098-71D8-4154-A8AD-865949787768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A19098-71D8-4154-A8AD-865949787768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A19098-71D8-4154-A8AD-865949787768}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
