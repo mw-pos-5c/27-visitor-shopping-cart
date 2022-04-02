@@ -11,7 +11,5 @@
 
     public abstract void Accept(IVisitor visitor);
 
-    public abstract string GetHtml();
-
   }
 }

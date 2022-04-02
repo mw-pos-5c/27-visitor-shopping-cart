@@ -39,14 +39,24 @@
           <RadioButton Name="rdoBag" Content="Einkaufskorb"  />
         </StackPanel>
       </GroupBox>
-      <StackPanel Name="panButtons" Grid.Row="5" Grid.ColumnSpan="2"
-                  Button.Click="PanButtons_Click"/>
+      <StackPanel Name="panButtons" Grid.Row="5" Grid.ColumnSpan="2" Button.Click="PanButtons_Click">
+        <Button Name="btn1">Durchschn. Alkoholgehalt</Button>
+        <Button Name="btn2">Kalorien</Button>
+        <Button Name="btn3">Kasse</Button>
+        <Button Name="btn4">Render HTML</Button>
+        <Button Name="btn5">Waage</Button>
+      </StackPanel>
 
     </Grid>
     <StackPanel Grid.Column="1">
       <Button Content="Hinzufügen" Click="BtnAddClicked" />
       <Label Content="Kategorien"/>
       <StackPanel Name="panCategories" Orientation="Vertical" />
+      <ComboBox Name="comboCategories">
+        <ComboBoxItem>Beverage</ComboBoxItem>
+        <ComboBoxItem>Cosmetic</ComboBoxItem>
+        <ComboBoxItem>Food</ComboBoxItem>
+      </ComboBox>
     </StackPanel>
     <Grid Grid.Column="2">
       <Grid.RowDefinitions>

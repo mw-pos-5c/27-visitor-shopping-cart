@@ -6,7 +6,6 @@
     {
       visitor.VisitCosmetic(this);
     }
-
-    public override string GetHtml() => $"<tr><td>{Name}</td><td>{PricePerUnit}€</td><td>{Weight}g</td><td>&nbsp;</td></tr>";
+    
   }
 }
